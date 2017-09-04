@@ -1,0 +1,29 @@
+Name
+====
+Intro. to PKGBUILD
+
+Date
+====
+Saturday, April 19 2014 09:30 UTC
+Saturday, April 19 2014 16:00 UTC
+
+Duration
+========
+2 hours
+
+Class outline
+=============
+It will cover the basics of packaging and how to write a PKGBUILD. Everyone is
+welcome to attend.
+
+Prerequisites
+=============
+The only prerequisite is an interest in the topic.
+
+Materials
+=========
+
+Teacher bio.
+============
+**CalimeroTeknik** is a bash hacker and a student. He is a longtime Arch Linux
+user (since about May 2008) and released http://ctkarch.org/ in 2009.
