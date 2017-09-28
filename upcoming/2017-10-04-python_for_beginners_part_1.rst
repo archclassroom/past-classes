@@ -1,13 +1,10 @@
 Name
 ====
-Python for beginners
+Python for Beginners - Part 1
 
 Date
 ====
-n/a
-Theoretically any day before 09:00 CEST or after 18:00 CEST
-Then any time in weekends, it mainly depends on attendees timezones.
-Probably 5 sessions total
+Wednesday, October 04 2017 16:00 UTC
 
 Duration
 ========
