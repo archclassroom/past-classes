@@ -12,13 +12,13 @@ Duration
 
 Class Outline
 =============
-This class will focus on introduction to programming with Python and how to use
-IPython with some IDE. Most used built-in functions and libraries will be
-explained. Other topics will explored based on attendees's interest.
+This class will introduce one to programming with Python and how to use IPython
+with an editor/IDE. Commonly used built-in functions and libraries will be
+explained. Other topics will be explored based on participant interests.
 
-Class will be screen-shared live, and later archived with subtitles. Questions
-little discussion on IRC is expected, however the main part will still be
-video/audio.
+The class will be screen-shared live (via YouTube), and later archived with
+subtitles. Questions and some discussion on IRC is expected, however the main
+part will be video and audio.
 
 Prerequisites
 =============
@@ -38,7 +38,7 @@ Materials
 Teacher Bio
 ===========
 
-**pulec** is an Arch Linux user since 2012, gamer and gardener. Making a living
-using Linux and Python since 2013, recently joined Red Hat and hoping to spread
-IT knowledge and open source ideas in general populace. Some code -
-https://github.com/Pulecz
+**pulec** is an Arch Linux user since 2012, gamer and gardener. He has made a
+living using Linux and Python since 2013 and recently joined Red Hat. He hopes
+to spread IT knowledge and open source ideas to the general populace.
+Some code - https://github.com/Pulecz
