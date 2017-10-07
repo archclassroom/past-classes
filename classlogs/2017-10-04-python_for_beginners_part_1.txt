@@ -1,0 +1,154 @@
+2017-10-04 16:08:57	@pulec	====class begins====
+2017-10-04 16:09:37	tigrmesh	pulec: still asks for decryption key
+2017-10-04 16:10:02	@pulec	https://mega.nz/#!wAEEna4Q!ZszfgNNlNlg2KK1w4L7Oor-ReUmh3vtfFeQu0oL7xsU
+2017-10-04 16:10:03	phrik	Title: MEGA (at mega.nz)
+2017-10-04 16:11:46	tigrmesh	oh.  that's just for vbox?
+2017-10-04 16:11:51	@pulec	yes
+2017-10-04 16:12:39	tigrmesh	ok  :)
+2017-10-04 16:13:10	lo1_	man sorry my connection sucks, i'll get the logs later
+2017-10-04 16:13:31	lo1_	thank you and everyone who made this possible, good job! see you
+2017-10-04 16:15:39	@lola	:)
+2017-10-04 16:16:01	@pulec	!yt Raymond Hettinger pycon
+2017-10-04 16:16:02	phrik	YouTube :: https://youtu.be/npw4s1QTmPg :: Raymond Hettinger   Modern Python Dictionaries    A confluence of a dozen great ideas   PyCon 2017
+2017-10-04 16:16:41	@pulec	http://pyvideo.org/
+2017-10-04 16:16:58	@lola	oh, the channel topic needs to get updated heh
+2017-10-04 16:18:49	--	lola has changed topic for #archlinux-classroom from "Upcoming classes: https://wiki.archlinux.org/index.php/Classroom | Logs of past classes can be found at https://archwomen.org/media/project_classroom/classlogs/ | Python for Beginners in progress, live stream https://www.youtube.com/watch?v=gV64m2fGm14" to ""Upcoming classes: https://wiki.archlinux.org/index.php/Classroom | Logs of past classes can be found at https://github.com/archclassroom/past-classes | Python for Beginners in progress, live stream https://www.youtube.com/watch?v=gV64m2fGm14""
+2017-10-04 16:19:27	@lola	Live stream is at https://www.youtube.com/watch?v=gV64m2fGm14
+2017-10-04 16:19:28	phrik	Title: Pulec – Arch Class - Python Edu - YouTube (at www.youtube.com)
+2017-10-04 16:20:52	--	Topic for #archlinux-classroom is ""Upcoming classes: https://wiki.archlinux.org/index.php/Classroom | Logs of past classes can be found at https://github.com/archclassroom/past-classes | Python for Beginners in progress, live stream https://www.youtube.com/watch?v=gV64m2fGm14""
+2017-10-04 16:20:52	--	Topic set by lola (meskarune@unaffiliated/meskarune) on Wed, 04 Oct 2017 16:21:41
+2017-10-04 16:21:52	--	ChanServ has changed topic for #archlinux-classroom from ""Upcoming classes: https://wiki.archlinux.org/index.php/Classroom | Logs of past classes can be found at https://github.com/archclassroom/past-classes | Python for Beginners in progress, live stream https://www.youtube.com/watch?v=gV64m2fGm14"" to "Upcoming classes: https://wiki.archlinux.org/index.php/Classroom | Logs of past classes can be found at https://github.com/archclassroom/past-classes | Python for Beginners in progress, live stream https://www.youtube.com/watch?v=gV64m2fGm14"
+2017-10-04 16:22:41	@lola	I'm trying to post what is said in the live chat, but my internet is flakey
+2017-10-04 16:24:10	@fsckd	lola: thanks :)
+2017-10-04 16:31:05	@lola	"You have been sending too many messages. Take a break and try again.  Edit and try again." ಠ_ಠ
+2017-10-04 16:32:26	@fsckd	:(
+2017-10-04 16:33:09	@lola	ok I will post here lol
+2017-10-04 16:34:09	@lola	"there are lots of packages"
+2017-10-04 16:34:23	@lola	"just below 100 thousand packages"
+2017-10-04 16:34:41	@lola	"so we can check out pypy python"
+2017-10-04 16:34:52	@lola	"since yesterday it grew by 70 packages"
+2017-10-04 16:35:14	@lola	so you can use the site to search for a package
+2017-10-04 16:35:21	@lola	pypi
+2017-10-04 16:35:33	@lola	https://pypi.python.org
+2017-10-04 16:35:34	phrik	Title: PyPI - the Python Package Index : Python Package Index (at pypi.python.org)
+2017-10-04 16:35:55	@lola	You can search for a package and see the example
+2017-10-04 16:36:48	@lola	the idea is that you don't have to reinvent and write code from scratch
+2017-10-04 16:37:04	@lola	you can use a python package
+2017-10-04 16:37:17	@lola	here is a picture from github io
+2017-10-04 16:37:47	@pulec	how is the delay?
+2017-10-04 16:38:04	@lola	pypl just loaded
+2017-10-04 16:38:16	@lola	I think your voice is ahead of the video
+2017-10-04 16:38:43	@pulec	so lets start coding ok?
+2017-10-04 16:38:45	@lola	"when you google for python you are more likely to get an answer than some other language"
+2017-10-04 16:38:46	@pulec	ipython and lets go
+2017-10-04 16:39:05	@lola	"always check multiple sources"
+2017-10-04 16:39:40	@lola	"we can check on reddit python, it is a great resource for lots of interesting things'
+2017-10-04 16:40:04	@lola	oh did you prerecord the live stream pulec ?
+2017-10-04 16:40:08	@pulec	http://learnpython.org/ this is some kind of contents
+2017-10-04 16:40:09	phrik	Title: Learn Python - Free Interactive Python Tutorial (at learnpython.org)
+2017-10-04 16:40:49	@lola	we could have used the server to stream ;)
+2017-10-04 16:40:55	@pulec	no I didn't prerecord it, youtube streaming is problematic
+2017-10-04 16:41:01	@lola	I see
+2017-10-04 16:41:35	@lola	"so some differences, in C hello looks like this"
+2017-10-04 16:41:36	@pulec	everybody have ipython or python notebook ready?
+2017-10-04 16:42:02	tigrmesh	i do
+2017-10-04 16:42:19	tigrmesh	i'm still looking at pypl
+2017-10-04 16:42:19	@lola	yeah :)
+2017-10-04 16:42:37	tigrmesh	and having huge lag
+2017-10-04 16:43:14	blublin	same
+2017-10-04 16:44:49	@lola	the day one notebook can get grabbed here:
+2017-10-04 16:44:51	@lola	https://raw.githubusercontent.com/archclassroom/python-beginners/master/Day1%20-%20almost%20all%20the%20basics%20from%20learnpython.org.ipynb
+2017-10-04 16:48:28	tigrmesh	i'm going to try internet on my phone.  it may be better
+2017-10-04 16:54:26	tigrmesh	i missed a lot  :(
+2017-10-04 16:56:34	@lola	pulec: live stream totally died
+2017-10-04 16:57:19	@lola	ok I think maybe its back up
+2017-10-04 16:57:24	@lola	no, died again
+2017-10-04 16:57:26	@lola	:/
+2017-10-04 16:57:36	@lola	up again but I just see google home page
+2017-10-04 16:57:51	@pulec	ok lets have a break and split it
+2017-10-04 16:58:19	tigrmesh	ok
+2017-10-04 16:58:34	@lola	so anyone needs, they can do `export BROWSER=/usr/bin/google-chrome-stable` or `export BROWSER=/usr/bin/firefox` before running `jupyter notebook`
+2017-10-04 16:58:46	@lola	and it will open the notebook in that browser
+2017-10-04 16:59:07	@lola	well it opens the file chooser and then you can pick a notebook to open
+2017-10-04 16:59:35	@pulec	there is also --browser option I thought, tigrmesh mentioned
+2017-10-04 16:59:44	@pulec	lets reconfigure obs and start in a minute
+2017-10-04 16:59:52	tigrmesh	  `--browser=/usr/bin/chromium`
+2017-10-04 17:00:08	user1254`	live stream offline 
+2017-10-04 17:00:14	@pulec	actually it seems obs is a bit overloaded, so that might explain everything :D
+2017-10-04 17:00:37	@fsckd	user1254`: taking a break :)
+2017-10-04 17:00:51	user1254`	ok :). tea time
+2017-10-04 17:02:10	@pulec	lets have break for at least 5 minutes now, obs is catching up with the whole recording
+2017-10-04 17:02:18	@pulec	sorry for not testing things properly before :-)
+2017-10-04 17:03:26	@pulec	yeah, its definitelly behined and still in cache, choose to high settings :-)
+2017-10-04 17:03:32	@pulec	it does not work well for longer videos
+2017-10-04 17:04:02	@pulec	its 15 minutes to go, uff...
+2017-10-04 17:04:07	@pulec	but it should code faster
+2017-10-04 17:04:44	@pulec	so far any questions?
+2017-10-04 17:05:01	@pulec	I guess you will have some after you see the last few minutes
+2017-10-04 17:05:55	tigrmesh	yeah. since my question is "what happened during the last few minutes?"
+2017-10-04 17:06:23	tigrmesh	should i be in ipython or jupyter notebook?
+2017-10-04 17:06:35	@pulec	everybody's connection is probably ok
+2017-10-04 17:06:43	@pulec	its my settings that were borked
+2017-10-04 17:06:58	tigrmesh	k
+2017-10-04 17:08:01	@fsckd	pulec: no worries, we learn as we go along :)
+2017-10-04 17:08:20	@pulec	ono, probably 10 more minutes
+2017-10-04 17:08:47	@pulec	anybody having issues keeping it 20 more minutes after 6 pm utc?
+2017-10-04 17:11:27	tigrmesh	i'm ok with that.  but not much longer
+2017-10-04 17:11:42	@pulec	ok
+2017-10-04 17:11:59	@fsckd	pulec: you're doing well :)
+2017-10-04 17:13:12	@pulec	before session #2 which could be probably in end of the october I might repeat this session in "CET Morning" which is during USA sleeping time
+2017-10-04 17:13:31	@fsckd	sounds good
+2017-10-04 17:13:59	@pulec	ok it seems in 6 minutes on 20, obs should catch up with itself, I will lower settings, make a new link for stream and we can continue
+2017-10-04 17:15:06	tigrmesh	sounds good
+2017-10-04 17:17:43	@pulec	stream should catch up with itself now, just the local recording, 150s to go
+2017-10-04 17:18:52	@pulec	ono it really seems out of sync :-/
+2017-10-04 17:19:08	@pulec	reminder: do a proper real test with obs first, not just 20 minutes
+2017-10-04 17:19:18	user1254	pacman -Syu
+2017-10-04 17:20:00	@fsckd	pulec: when you have the new link, i'll put it in the topic
+2017-10-04 17:20:02	@pulec	still not done, 2 more minutes
+2017-10-04 17:20:04	@pulec	great
+2017-10-04 17:22:13	@pulec	https://www.youtube.com/watch?v=YQDs1Trtc_o
+2017-10-04 17:22:14	phrik	Title: Pulec – Arch Class - Python Edu - YouTube (at www.youtube.com)
+2017-10-04 17:22:16	@pulec	see if it works now
+2017-10-04 17:22:31	tigrmesh	same link?
+2017-10-04 17:22:36	tigrmesh	i hear you  :)
+2017-10-04 17:22:53	user1254	seems much better now
+2017-10-04 17:27:35	tigrmesh	dot and what?
+2017-10-04 17:28:26	user1254	TAB
+2017-10-04 17:29:25	tigrmesh	thanks
+2017-10-04 17:30:35	@lola	yes, working much better
+2017-10-04 17:32:02	@lola	pulec: if possible, could you amke the font larger?
+2017-10-04 17:32:10	@lola	its a bit fuzzy looking at small sizes
+2017-10-04 17:34:47	tigrmesh	thanks for making it bigger
+2017-10-04 17:35:43	--	because is now known as typikal
+2017-10-04 17:36:42	@lola	its much better :D
+2017-10-04 17:54:43	tigrmesh	would you please explain the difference between `=` and `==`?
+2017-10-04 17:55:59	@pulec	== is a comparisson operator
+2017-10-04 17:56:04	@pulec	https://www.tutorialspoint.com/python/python_basic_operators.htm
+2017-10-04 17:56:05	phrik	Title: Python Basic Operators (at www.tutorialspoint.com)
+2017-10-04 17:56:21	tigrmesh	ok.  thaks
+2017-10-04 17:56:26	tigrmesh	*thanks
+2017-10-04 17:58:30	@lola	`2 + 2 = 4` is true and different from `2 + 2 == 4` because 4 is not literally the letters `2 + 2` so that is false
+2017-10-04 17:59:01	@pulec	20 minutes to go or so
+2017-10-04 17:59:17	@lola	if 2 + 2 = 4
+2017-10-04 17:59:28	@lola	    print("true")
+2017-10-04 17:59:32	@lola	to test it out
+2017-10-04 18:00:06	@pulec	4:
+2017-10-04 18:00:10	@pulec	misisng semicolon
+2017-10-04 18:00:19	@lola	oh thanks :)
+2017-10-04 18:09:22	tigrmesh	the first one is true, so the second never gets called
+2017-10-04 18:09:36	tigrmesh	s/second/elif/
+2017-10-04 18:10:01	@pulec	that is what I thought, lets test it :-)
+2017-10-04 18:13:29	@pulec	good guess tigrmesh 
+2017-10-04 18:17:09	@pulec	just dictionaries and lets end
+2017-10-04 18:21:04	tigrmesh	k
+2017-10-04 18:22:14	tigrmesh	*that's what a tuple is
+2017-10-04 18:23:30	@pulec	5 minutes to go
+2017-10-04 18:23:54	tigrmesh	so is a tuple a key-value pair?
+2017-10-04 18:24:50	@pulec	no that is a dict
+2017-10-04 18:25:11	tigrmesh	oh
+2017-10-04 18:25:21	@pulec	will explain
+2017-10-04 18:32:01	@pulec	so that is it
+2017-10-04 18:32:05	@pulec	any questions?
+2017-10-04 18:32:23	tigrmesh	thank you  :)
+2017-10-04 18:33:48	@pulec	====class ends====

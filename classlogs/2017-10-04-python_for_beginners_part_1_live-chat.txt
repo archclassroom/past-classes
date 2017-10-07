@@ -1,0 +1,49 @@
+Live chat
+
+16:19PM <Meskarune> howdy y'all
+
+16:20PM <Meskarune> Its flexible and portable
+
+16:20PM <Meskarune> Runs on mobile phones
+
+16:21PM <Meskarune> Runs on windows, linux and mac)S
+
+16:21PM <Meskarune> macOS
+
+16:23PM <Meskarune> Any topic you are interested in you should be able to use python
+
+16:24PM <Meskarune> as it is very versatile and almost 30 years old
+
+16:24PM <Meskarune> There are 2 verisons, python 3 and python 2
+
+16:24PM <Meskarune> python 3.6.2 is recomended version
+
+16:24PM <Meskarune> new version was released yesterday
+
+16:25PM <Meskarune> python 2 is being discontinued
+
+16:25PM <Meskarune> it will not be maintained past 2020, so its a good idea to learn python 3
+
+16:26PM <Meskarune> learn python the hard way - recently updated to python 3
+
+16:26PM <Meskarune> recommended as a learning source
+
+16:28PM <Meskarune> from an xkcd comic there is a guy saying "you are flying" "how?" flying guy says "python"
+
+16:29PM <Meskarune> sorry, my internet cut out - meskarune
+
+16:29PM <Meskarune> we can test python
+
+16:29PM <Meskarune> " I am on fedora"
+
+16:29PM <Meskarune> here is ipython 3
+
+16:30PM <Meskarune> for running python2 you can run ipython2
+
+16:30PM <Meskarune> it has to be installed sepperately
+
+16:31PM <Klariset> I also think it's good to mention about PsychoPy, maybe at the end, it's always interesting when two different worlds meet together and it can inspire others. ☺
+
+16:37PM <Meskarune> on the video I just see the pypi site
+
+16:54PM <Klariset> Not sure if it's cause of the delay, but I couldn't see anything, only "Practice begins!" screen.
